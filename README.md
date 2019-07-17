@@ -1,0 +1,1 @@
+Game Idea Master Word File: [**LINK**](https://docs.google.com/document/d/1x-n82bs2wzC2WgynNYeWigng9j3tRCpTDm45xvoVsDQ/edit?usp=sharing)

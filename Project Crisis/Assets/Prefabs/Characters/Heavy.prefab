@@ -1,0 +1,606 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2414411173338421028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2774877045093830805}
+  - component: {fileID: 617281103689540730}
+  m_Layer: 0
+  m_Name: Heavy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2774877045093830805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414411173338421028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8070581984070033236}
+  - {fileID: 8688134364031771411}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &617281103689540730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414411173338421028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb59e5e31238371489a69c9243e804a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 8070581984070033070}
+  hittables:
+  - {fileID: 8070581984070032945}
+  - {fileID: 8070581984070032978}
+  - {fileID: 8070581984070032986}
+  - {fileID: 8070581984070032971}
+  - {fileID: 8070581984070032955}
+  - {fileID: 8070581984070033016}
+  - {fileID: 8070581984070033006}
+--- !u!1 &6064309474642614208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8688134364031771411}
+  m_Layer: 0
+  m_Name: Damage Takers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8688134364031771411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064309474642614208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4024, y: 1, z: 1.4024}
+  m_Children:
+  - {fileID: 8070581984070033229}
+  - {fileID: 8070581984070033266}
+  - {fileID: 8070581984070033241}
+  - {fileID: 8070581984070033245}
+  - {fileID: 8070581984070033026}
+  - {fileID: 8070581984070033225}
+  - {fileID: 8070581984070033029}
+  m_Father: {fileID: 2774877045093830805}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8070581984070033172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033241}
+  - component: {fileID: 8070581984070033115}
+  - component: {fileID: 8070581984070032986}
+  m_Layer: 0
+  m_Name: Right Hand Damage Taker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033172}
+  m_LocalRotation: {x: -0.596598, y: -0.3795666, z: 0.3795666, w: 0.596598}
+  m_LocalPosition: {x: 0.779, y: 1.212, z: -0.030078888}
+  m_LocalScale: {x: 1.481801, y: 1.4818013, z: 1.481802}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -25.069, y: -90.00001, z: 90.00001}
+--- !u!136 &8070581984070033115
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.028401736
+  m_Height: 0.42282793
+  m_Direction: 2
+  m_Center: {x: -0.00000035777205, y: -0.0270945, z: 0.27853206}
+--- !u!114 &8070581984070032986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033115}
+  m_particleType: 1
+  m_damageMultiplier: 0.8
+--- !u!1 &8070581984070033176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033266}
+  - component: {fileID: 8070581984070033120}
+  - component: {fileID: 8070581984070032978}
+  m_Layer: 0
+  m_Name: Body Damage Taker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033176}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.7750528, z: 0.016}
+  m_LocalScale: {x: 1.4818, y: 1.4818019, z: 1.4818019}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &8070581984070033120
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.08646109
+  m_Height: 0.54
+  m_Direction: 2
+  m_Center: {x: 0, y: -0, z: 0.36}
+--- !u!114 &8070581984070032978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033120}
+  m_particleType: 1
+  m_damageMultiplier: 1
+--- !u!1 &8070581984070033379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033245}
+  - component: {fileID: 8070581984070033121}
+  - component: {fileID: 8070581984070032971}
+  m_Layer: 0
+  m_Name: 'Left Hand Damage Taker '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033379}
+  m_LocalRotation: {x: -0.5933148, y: 0.38467857, z: -0.38467857, w: 0.5933148}
+  m_LocalPosition: {x: -0.767, y: 1.228, z: -0.030078888}
+  m_LocalScale: {x: 1.4818021, y: 1.481803, z: 1.4818039}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -24.085001, y: 90.00001, z: -90.00001}
+--- !u!136 &8070581984070033121
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.028401738
+  m_Height: 0.37726256
+  m_Direction: 2
+  m_Center: {x: -0.00000025890103, y: -0.027094504, z: 0.25574893}
+--- !u!114 &8070581984070032971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033121}
+  m_particleType: 1
+  m_damageMultiplier: 0.8
+--- !u!1 &8070581984070033380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033026}
+  - component: {fileID: 8070581984070033126}
+  - component: {fileID: 8070581984070032955}
+  m_Layer: 0
+  m_Name: Shoulder Damage Taker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033380}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1.0358497, z: 0}
+  m_LocalScale: {x: 1.4818, y: 1.4818019, z: 1.4818019}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &8070581984070033126
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.09
+  m_Height: 0.34
+  m_Direction: 0
+  m_Center: {x: 0, y: 0.01, z: 0.31}
+--- !u!114 &8070581984070032955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033126}
+  m_particleType: 1
+  m_damageMultiplier: 1
+--- !u!1 &8070581984070033383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033029}
+  - component: {fileID: 8070581984070033113}
+  - component: {fileID: 8070581984070033006}
+  m_Layer: 0
+  m_Name: Left Leg Damage Taker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033383}
+  m_LocalRotation: {x: 0.11258594, y: 0.66708416, z: 0.73470944, w: -0.050251357}
+  m_LocalPosition: {x: 0.12447119, y: 1.0269587, z: -0.011856079}
+  m_LocalScale: {x: 1.4818014, y: 1.4818013, z: 1.481801}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 4.8560004, y: 5.6670003, z: 193.49199}
+--- !u!136 &8070581984070033113
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.62446105
+  m_Direction: 2
+  m_Center: {x: 0.16767089, y: -0.027094563, z: -0.3889455}
+--- !u!114 &8070581984070033006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033113}
+  m_particleType: 1
+  m_damageMultiplier: 0.8
+--- !u!1 &8070581984070033387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033236}
+  - component: {fileID: 8070581984070033085}
+  - component: {fileID: 8070581984070033070}
+  m_Layer: 0
+  m_Name: Skinned Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033387}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1.39, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1.48}
+  m_Children: []
+  m_Father: {fileID: 2774877045093830805}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8070581984070033085
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033387}
+  m_Mesh: {fileID: 4300000, guid: 6f1d643db880b1d4aa63ad6ee0f921e2, type: 3}
+--- !u!23 &8070581984070033070
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033387}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6f1d643db880b1d4aa63ad6ee0f921e2, type: 3}
+  - {fileID: 2100002, guid: 6f1d643db880b1d4aa63ad6ee0f921e2, type: 3}
+  - {fileID: 2100004, guid: 6f1d643db880b1d4aa63ad6ee0f921e2, type: 3}
+  - {fileID: 2100006, guid: 6f1d643db880b1d4aa63ad6ee0f921e2, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8070581984070033395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033229}
+  - component: {fileID: 8070581984070033117}
+  - component: {fileID: 8070581984070032945}
+  m_Layer: 0
+  m_Name: Head Damage Taker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033395}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1.8404673, z: 0.050380707}
+  m_LocalScale: {x: 1.4818, y: 1.4818019, z: 1.4818019}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8070581984070033117
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.09
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8070581984070032945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033117}
+  m_particleType: 1
+  m_damageMultiplier: 3
+--- !u!1 &8070581984070033397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070581984070033225}
+  - component: {fileID: 8070581984070033125}
+  - component: {fileID: 8070581984070033016}
+  m_Layer: 0
+  m_Name: Right Leg Damage Taker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070581984070033225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033397}
+  m_LocalRotation: {x: -0.6725342, y: -0.03867438, z: 0.03304569, w: 0.7383157}
+  m_LocalPosition: {x: -0.13039827, y: 1.0269588, z: -0.011856079}
+  m_LocalScale: {x: 1.4818, y: 1.4818022, z: 1.4818026}
+  m_Children: []
+  m_Father: {fileID: 8688134364031771411}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 5.302, y: -5.854, z: -0.72800004}
+--- !u!136 &8070581984070033125
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.62446105
+  m_Direction: 2
+  m_Center: {x: 0.16767089, y: -0.027094563, z: -0.3889455}
+--- !u!114 &8070581984070033016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070581984070033397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80df0101b64dc9844b9b0e2e309b9d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colliders:
+  - {fileID: 8070581984070033125}
+  m_particleType: 1
+  m_damageMultiplier: 0.8

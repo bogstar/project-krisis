@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1104588908576064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4161035769341570}
+  - component: {fileID: 114016145769232464}
+  - component: {fileID: 114416287586110634}
+  - component: {fileID: 1494576668619371515}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4161035769341570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104588908576064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114016145769232464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104588908576064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407afebbd71d54241a18585951bc5b1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inGameGuiPrefab: {fileID: 4967356963385596629, guid: 5e06ff26e082e7a439d8856b955738fe,
+    type: 3}
+  lobbyEntryPrefab: {fileID: 285, guid: feea1e1d96f9c9a4680bb915d3657aac, type: 3}
+  debugging: 0
+  localPlayerName: 
+  level: Game
+  currentSceneManager: {fileID: 0}
+  state: 0
+  mouseSensitivity: -1
+--- !u!114 &114416287586110634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104588908576064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fdf8c5e96f7823459c0ed21f4d4d575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grenadePrefab: {fileID: 8611984534269515526, guid: b8d1144afce83ff44a8891a6edcb8165,
+    type: 3}
+  playerPrefab: {fileID: 1835479106149262541, guid: 26832d5e0db2f934682b37e9dbcb6d7f,
+    type: 3}
+  bulletTrailPrefab: {fileID: 1054928530565782, guid: 1f05333008637394aa8185d15c6e3b1f,
+    type: 3}
+  weapons:
+  - {fileID: 11400000, guid: 2f401bb9a923943419ff85f1905c2619, type: 2}
+  - {fileID: 11400000, guid: fe5c03a2d333a954982957d4e81b9e96, type: 2}
+  - {fileID: 11400000, guid: 42149bedca2d3284cb765ce4504156ca, type: 2}
+  levels:
+  - {fileID: 11400000, guid: 3f4b495861e8d0c4886fa14568d1a15c, type: 2}
+  - {fileID: 11400000, guid: 680349d367b0175428233803e1a6df93, type: 2}
+  grenades:
+  - {fileID: 11400000, guid: d0ef75c257a1609448536b78ba56e8c2, type: 2}
+  - {fileID: 11400000, guid: 05e019223bf884842b197b4aca783874, type: 2}
+  characters:
+  - {fileID: 11400000, guid: d1d2b85443df84341a689b742ce3965f, type: 2}
+  - {fileID: 11400000, guid: a2b7fc0804e33cf4a89d3c598a673da9, type: 2}
+  pickups:
+  - pickupType: 1
+    gameObjects:
+    - {fileID: 1889013450755518, guid: 3ae41f57e1a22a344b44467140c74d4c, type: 3}
+  - pickupType: 0
+    gameObjects:
+    - {fileID: 1980258974906224, guid: 951dc1fdef976b742b59a655b6c94603, type: 3}
+    - {fileID: 1496318458630800, guid: 14b7100499e8c7b408d79321f9259678, type: 3}
+  - pickupType: 2
+    gameObjects:
+    - {fileID: 1370349243718854, guid: d12d07a1fccb93642ba63fb7e1cfdc0f, type: 3}
+  - pickupType: 3
+    gameObjects:
+    - {fileID: 1930005006173806, guid: 58e25e6c31542404ab56d511e3ccf88b, type: 3}
+--- !u!114 &1494576668619371515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104588908576064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4907f4d88d53d9f459dabaec911dc73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - key: 0
+    value: 0.2
+  - key: 1
+    value: 6
+  - key: 2
+    value: 2

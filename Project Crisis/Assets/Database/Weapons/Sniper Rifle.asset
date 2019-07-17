@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67a2acbee131a444a8570f820444b61, type: 3}
+  m_Name: Sniper Rifle
+  m_EditorClassIdentifier: 
+  id: sniper
+  name: Sniper Rifle
+  model: {fileID: 1513018879937272, guid: b819475cd955ab0488408a7b2ae8b253, type: 2}
+  fireType: 1
+  damage: 30
+  bulletsPerClip: 5
+  maxClips: 5
+  zoomWhenDownScoping: 3
+  range: 200
+  yScopeValue: -0.14
+  fireRate: 1.5
+  bulletTrailSpeed: 1000
+  bulletThickness: 0.01
+  reticleSpread: 80
+  reloadTime: 2
